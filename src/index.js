@@ -10,6 +10,11 @@ ReactDOM.render(
   <React.StrictMode>
     <StateProvider initialState={initialState} reducer={reducer}>
       <App />
+<<<<<<< Updated upstream
+=======
+      <App />,
+      <App/>
+>>>>>>> Stashed changes
     </StateProvider>
   </React.StrictMode>,
   document.getElementById("root")
